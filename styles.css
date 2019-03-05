@@ -1,0 +1,79 @@
+
+   h3 {
+     color: blue;
+	 font-weight: bold;
+	 text-align: center;
+   }
+   .now {
+     color: gold;
+	 font-family: calibri;
+   }
+   .future {
+     color: aqua;
+   }
+   .morefuture {
+     color: red
+   }
+   a:link {
+  color: green; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#button:link, #button:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#button:hover, #button:active {
+  background-color: red;
+}
+#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#nav1 {
+  float: left;
+}
+
+#nav1 #nav2 {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav1 #nav2:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
