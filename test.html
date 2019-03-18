@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<link rel="stylesheet" href="css/test.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+<h1>Anti-Bot Protection</h1>
+<div class="green"></div>
+<button type="submit" formaction="https://google.com">CLICK HERE!</button>
+ <script src="js/anime.min.js"></script>
+  <script>
+anime({
+  targets: '.green',
+  keyframes: [
+    {translateX: 250},
+    {translateY: 60},
+    {translateX: 0},
+    {translateY: 0}
+  ],
+  duration: 4000,
+  easing: 'easeOutElastic(1, .8)',
+  loop: true
+});
+</script>
+  </div>
+ </body>
+ </html>
